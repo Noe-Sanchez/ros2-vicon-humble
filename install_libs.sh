@@ -14,5 +14,7 @@ sudo chmod 0755 /usr/lib/libViconDataStreamSDK_CPP.so /usr/lib/libboost_system-m
 echo "." 
 sudo ldconfig
 echo "."
+apt install libboost-dev
+apt install libboost-thread-dev
 echo "Installlation finished"
 
